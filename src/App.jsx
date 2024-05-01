@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-
+/* eslint-disable */
 import {
   About,
   Contact,

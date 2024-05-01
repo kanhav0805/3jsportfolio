@@ -25,10 +25,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import suven from "./suven.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import appperfect from "./appperfect.jpeg";
+import tshirt from "./3jstshirt.png";
+import memories from "./memories.png";
+import zoom from "./zoom.png";
 
 export {
   logo,
@@ -59,4 +63,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  suven,
+  appperfect,
+  tshirt,
+  memories,
+  zoom,
 };

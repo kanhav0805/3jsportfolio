@@ -1,3 +1,4 @@
+/* eslint-disable */
 import {
   mobile,
   backend,
@@ -23,6 +24,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  suven,
+  appperfect,
+  tshirt,
+  memories,
+  zoom,
 } from "../assets";
 
 export const navLinks = [
@@ -46,16 +52,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React  Developer",
-    icon: mobile,
+    title: "Front End  Developer",
+    icon: web,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "React Developer",
+    icon: web,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Next JS Developer",
+    icon: web,
   },
 ];
 
@@ -118,9 +124,9 @@ const experiences = [
   {
     title: "Front End Intern",
     company_name: "Suven Consultancy",
-    icon: starbucks,
+    icon: suven,
     iconBg: "#383E56",
-    date: "Feb 2022 - March 2021",
+    date: "Feb 2022 - Apr 2022",
     points: [
       "Developing and maintaining web applications using HTML , CSS and Java Script",
       "Worked on using bootstrap to create provided layouts",
@@ -130,7 +136,7 @@ const experiences = [
   {
     title: "Software Developer",
     company_name: "Appperfect Corp.",
-    icon: tesla,
+    icon: appperfect,
     iconBg: "#E6DEDD",
     date: "Jun 2022 - Present",
     points: [
@@ -171,9 +177,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Memories",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Memories is a web application developed using React. It provides a platform for users to share their memories. Users can create accounts, log in, and post their memories",
     tags: [
       {
         name: "react",
@@ -188,41 +194,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: memories,
+    source_code_link: "https://github.com/kanhav0805/Memories",
   },
   {
-    name: "Job IT",
+    name: "TeeCustomize 3D",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The 3D T-shirt customization app developed using Three.js . Users can choose from a variety of customization options such as colors and logo to create a unique design. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "3js",
         color: "green-text-gradient",
       },
       {
@@ -230,8 +215,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tshirt,
+    source_code_link: "https://github.com/kanhav0805?tab=repositories",
+  },
+  {
+    name: "Zoom Lite",
+    description:
+      "The Zoom clone built with Next.js replicates Zoom's video conferencing features in a web application, providing a seamless virtual meeting experience.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "shadcn",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: zoom,
+    source_code_link: "https://github.com/kanhav0805/zoom_clone",
   },
 ];
 

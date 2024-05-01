@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import {
   VerticalTimeline,
@@ -12,6 +13,7 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
+// eslint-disable-next-line react/prop-types
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
@@ -20,12 +22,16 @@ const ExperienceCard = ({ experience }) => {
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+      // eslint-disable-next-line react/prop-types
       date={experience.date}
+      // eslint-disable-next-line react/prop-types
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
           <img
+            // eslint-disable-next-line react/prop-types
             src={experience.icon}
+            // eslint-disable-next-line react/prop-types
             alt={experience.company_name}
             className="w-[60%] h-[60%] object-contain"
           />

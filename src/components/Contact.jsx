@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
@@ -37,7 +38,7 @@ const Contact = () => {
         "template_18c94rm",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Kanhav Sukhwal",
           from_email: form.email,
           to_email: "kanhavsukhwal@gmail.com",
           message: form.message,
